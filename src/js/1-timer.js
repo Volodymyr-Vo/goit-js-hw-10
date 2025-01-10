@@ -28,7 +28,7 @@ const options = {
         position: 'topRight',
       });
     } else {
-      startButton.disabled = false;
+      startButton.disabled = true;
     }
   },
 };
