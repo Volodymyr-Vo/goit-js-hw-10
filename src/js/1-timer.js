@@ -13,6 +13,8 @@ const secondsValue = document.querySelector('[data-seconds]');
 let selectedDate = null;
 let timerInterval = null;
 
+startButton.disabled = true;
+
 const options = {
   enableTime: true,
   time_24hr: true,
@@ -28,7 +30,7 @@ const options = {
         position: 'topRight',
       });
     } else {
-      startButton.disabled = true;
+      startButton.disabled = false;
     }
   },
 };
